@@ -10,7 +10,7 @@ Web pages are built using text-based mark-up languages (HTML and XHTML), and fre
 
 Beautiful Soup is a Python package for parsing HTML and XML documents (including having malformed markup, i.e. non-closed tags, so named after tag soup). It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for web scraping.
 
-from bs4 import BeautifulSoup
-from urllib.request import urlopen
+#from bs4 import BeautifulSoup
+#from urllib.request import urlopen
 
 Beautiful Soup is a library that makes it easy to scrape information from web pages. It sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree. Hence this makes it easy to collect and store data from various websites, before they are made ready for wrangling and cleansing. 
